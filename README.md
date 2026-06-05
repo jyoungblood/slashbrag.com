@@ -1,6 +1,6 @@
 # The /brag Directory
 
-A collection of people with public /brag pages.
+A public directory for people with /brag pages.
 
 It's a place to browse people's work, find interesting builders, and increase the chance that all those impressive accomplishments get seen by the right people.
 
