@@ -1,43 +1,44 @@
-# Astro Starter Kit: Minimal
+# The /brag Directory
 
-```sh
-npm create astro@latest -- --template minimal
-```
+The /brag directory is a collection of people with public /brag pages.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+It's a place to browse people's work, find interesting builders, and increase the chance that useful accomplishments get seen by the right people.
 
-## 🚀 Project Structure
 
-Inside of your Astro project, you'll see the following folders and files:
+## OK so what is a "/brag" page?
 
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+Most websites have an **about** page that tells you who someone is.
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+Most professionals have a **resume** that tells you where someone has worked.
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+A **/brag page** tells you what someone has actually done: the projects they shipped, problems they solved, lessons they learned, and impact they had.
 
-Any static assets, like images, can be placed in the `public/` directory.
+It is a living record of useful work. Despite the slightly uncomfortable name, the point is not arrogance. The point is to keep a clear source of truth about accomplishments that are easy to forget, hard to summarize, or invisible from the outside.
 
-## 🧞 Commands
+## How is it different from a resume or LinkedIn profile?
 
-All commands are run from the root of the project, from a terminal:
+A resume is usually compressed, formal, and written for a specific opportunity. LinkedIn is built around job history, announcements, and network updates.
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+A /brag page can be specific, personal, and cumulative. It can include the small wins, quiet fixes, behind-the-scenes work, and compounding progress that rarely make it into a resume.
 
-## 👀 Want to learn more?
+If someone asks, "What have you been building lately?" or "Why should I trust this person with interesting work?", a /brag page will help answer that quickly.
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+## Why make one?
+
+Because good work is often scattered across commits, docs, launches, conversations, and memory.
+
+Writing it down makes it easier to see your own progress and easier for other people to understand your strengths. It can help with resumes, introductions, promotions, speaking opportunities, performance reviews, client work, hiring, and any moment where someone needs to describe why you are worth paying attention to.
+
+It also makes self-promotion less awkward. Instead of trying to hype yourself up on the spot, you are documenting facts as they happen.
+
+## How do I make a /brag page?
+
+Start simple: add a page to your personal site and call it `/brag`. 
+
+Write down the work you are proud of, the impact it had, and enough context for someone else to understand why it mattered.
+
+Update it when you ship something, solve something, learn something, or help something move forward.
+
+## How do I get listed in the directory?
+
+Create a public `/brag` page, then open a pull request in this repo to add your name, link, and bio to [`data.json`](https://github.com/jyoungblood/slashbrag.com/blob/main/data.json).
