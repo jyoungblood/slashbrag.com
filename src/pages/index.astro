@@ -1,5 +1,6 @@
 ---
 import "../styles/global.css";
+import { Font } from "astro:assets";
 import { z } from "astro/zod";
 import directory from "../../data.json";
 
@@ -24,6 +25,7 @@ const randomLinks = people.map(({ link }) => link);
 
 <html lang="en">
   <head>
+    <Font cssVariable="--font-geist-sans" />
     <meta charset="utf-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="icon" href="/favicon.ico" />
@@ -37,15 +39,17 @@ const randomLinks = people.map(({ link }) => link);
         class="mx-auto flex w-full max-w-6xl flex-col gap-8 px-5 py-10 sm:px-8 lg:py-14"
       >
         <header
-          class="flex flex-col gap-3 pb-12 md:flex-row md:items-start md:justify-between"
+          class="flex flex-col gap-12 pb-12 md:flex-row md:items-start md:justify-between md:gap-x-12"
         >
-          <div class="mb-6">
-            <h1 class="text-4xl font-semibold sm:text-5xl mb-6">
-              the /brag directory
+          <div class="min-w-0 lg:shrink-0">
+            <h1
+              class="text-4xl font-bold sm:text-5xl mb-6 uppercase whitespace-nowrap md:whitespace-normal lg:whitespace-nowrap"
+            >
+              /brag directory
             </h1>
             <a
               id="random-link"
-              class="bg-slime-500 hover:bg-black hover:text-white inline-flex items-center gap-2 rounded border border-black px-4 py-2 text-sm font-semibold no-underline transition focus-visible:outline-2 focus-visible:outline-offset-4"
+              class="bg-slime-500 hover:bg-black hover:text-white inline-flex items-center gap-2 rounded border border-black md:px-4 px-2 md:py-2 py-1 md:text-sm text-xs font-semibold no-underline transition focus-visible:outline-2 focus-visible:outline-offset-4"
               href="#"
               target="_blank"
               data-links={JSON.stringify(randomLinks)}
@@ -54,7 +58,7 @@ const randomLinks = people.map(({ link }) => link);
             </a>
           </div>
           <div
-            class="flex max-w-lg flex-col items-start gap-4 text-neutral-500/80 font-medium pt-2"
+            class="flex min-w-0 flex-col items-start gap-4 self-start text-neutral-500  md:min-w-72 md:max-w-lg lg:min-w-0"
           >
             <p>
               A /brag page is a living record of useful work. Increase your luck
@@ -63,7 +67,7 @@ const randomLinks = people.map(({ link }) => link);
             <a
               href="https://github.com/jyoungblood/slashbrag.com"
               target="_blank"
-              class="underline text-neutral-500/80 hover:text-slime-700"
+              class="underline text-neutral-600 hover:text-slime-700"
               >Add yours here</a
             >
           </div>

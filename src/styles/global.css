@@ -1,6 +1,7 @@
 @import "tailwindcss";
 
-@theme {
+@theme inline {
+  --font-sans: var(--font-geist-sans);
   --color-slime-50: #f9ffe1;
   --color-slime-100: #eef8cd;
   --color-slime-200: #deeea9;
@@ -13,4 +14,22 @@
   --color-slime-900: #788b00;
   --color-slime-950: #708200;
   --color-slime: var(--color-slime-500);
+}
+
+html {
+  background-color: color-mix(in srgb, var(--color-slime-50) 30%, transparent);
+  min-height: 100%;
+}
+
+html::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  opacity: 0.15;
+  mix-blend-mode: multiply;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='256' height='256'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='4' stitchTiles='stitch'/%3E%3CfeComponentTransfer%3E%3CfeFuncR type='linear' slope='2.5' intercept='-0.6'/%3E%3CfeFuncG type='linear' slope='2.5' intercept='-0.6'/%3E%3CfeFuncB type='linear' slope='2.5' intercept='-0.6'/%3E%3C/feComponentTransfer%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-repeat: repeat;
+  background-size: 180px 180px;
 }
