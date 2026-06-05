@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --color-slime-50: #f9ffe1;
+  --color-slime-100: #eef8cd;
+  --color-slime-200: #deeea9;
+  --color-slime-300: #cfe383;
+  --color-slime-400: #c3d962;
+  --color-slime-500: #b7cf42;
+  --color-slime-600: #a4bc20;
+  --color-slime-700: #95ab00;
+  --color-slime-800: #879b00;
+  --color-slime-900: #788b00;
+  --color-slime-950: #708200;
+  --color-slime: var(--color-slime-500);
+}

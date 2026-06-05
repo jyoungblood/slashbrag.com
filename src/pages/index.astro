@@ -1,17 +1,126 @@
 ---
+import "../styles/global.css";
+import { z } from "astro/zod";
+import directory from "../../data.json";
 
+const directorySchema = z.array(
+  z
+    .object({
+      name: z.string().min(1),
+      link: z.url(),
+      bio: z.string().min(1).max(200),
+    })
+    .strict(),
+);
+
+const lastName = (name: string) => name.slice(name.lastIndexOf(" ") + 1);
+
+const people = directorySchema
+  .parse(directory)
+  .slice()
+  .sort((a, b) => lastName(a.name).localeCompare(lastName(b.name)));
+const randomLinks = people.map(({ link }) => link);
 ---
 
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>/brag directory</title>
+  </head>
+  <body>
+    <main class="min-h-screen">
+      <section
+        class="mx-auto flex w-full max-w-6xl flex-col gap-8 px-5 py-10 sm:px-8 lg:py-14"
+      >
+        <header
+          class="flex flex-col gap-3 pb-24 md:flex-row md:items-start md:justify-between"
+        >
+          <div>
+            <h1 class="text-4xl font-semibold sm:text-5xl mb-6">
+              the /brag directory
+            </h1>
+            <a
+              id="random-link"
+              class="bg-slime-500 hover:bg-black hover:text-white inline-flex items-center gap-2 rounded border border-black px-4 py-2 text-sm font-semibold no-underline transition focus-visible:outline-2 focus-visible:outline-offset-4"
+              href="#"
+              target="_blank"
+              data-links={JSON.stringify(randomLinks)}
+            >
+              Show me someone cool
+            </a>
+          </div>
+          <div
+            class="flex max-w-xl flex-col items-start gap-4 text-neutral-500 font-medium"
+          >
+            <p>
+              It's like a /now page or a date-me-doc, but instead it's a
+              perpetual surface where you can showcase what you've done
+              professionally.
+            </p>
+            <p>
+              Increase your luck surface area by having a non-resume resume
+              always online.
+            </p>
+          </div>
+        </header>
+
+        <div class="grid gap-12 sm:grid-cols-2 lg:grid-cols-3">
+          {
+            people.map((person) => (
+              <article class="flex min-h-32 flex-col justify-between">
+                <div>
+                  <a
+                    href={person.link}
+                    target="_blank"
+                    class="text-xl font-semibold leading-tight underline text-black hover:text-slime-700"
+                  >
+                    {person.name}
+                  </a>
+                  <div class="mt-2 text-sm leading-6">{person.bio}</div>
+                </div>
+              </article>
+            ))
+          }
+        </div>
+        <img src="/favicon.svg" alt="the /brag directory" class="w-12 mx-auto" />
+        <footer class="text-center text-sm pt-4 text-neutral-400">
+          Brought to you by the boys at
+          <a
+            class="underline text-black-600 hover:text-slime-700"
+            target="_blank"
+            href="https://mostlytechnical.com"
+          >
+            Mostly Technical
+          </a>
+          and your friend <a
+            class="underline text-black-600 hover:text-slime-700"
+            target="_blank"
+            href="https://jonathanyoungblood.com"
+          >
+            Jonathan Youngblood
+          </a>
+        </footer>
+      </section>
+    </main>
+    <script>
+      const randomPersonLink =
+        document.querySelector<HTMLAnchorElement>("#random-link");
+
+      randomPersonLink?.addEventListener("click", (event) => {
+        const links = JSON.parse(randomPersonLink.dataset.links ?? "[]");
+        const randomLink = links[Math.floor(Math.random() * links.length)];
+
+        if (!randomLink) {
+          event.preventDefault();
+          return;
+        }
+
+        randomPersonLink.href = randomLink;
+      });
+    </script>
+  </body>
 </html>

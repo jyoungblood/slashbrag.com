@@ -1,0 +1,167 @@
+[
+  {
+    "name": "Ada Bright",
+    "link": "https://adabright.dev",
+    "bio": "Product-minded engineer building calm tools for creative teams and small studios. She documents shipping rituals, async handoffs, and design systems that stay out of the way for small teams."
+  },
+  {
+    "name": "Miles Ortega",
+    "link": "https://milesortega.com",
+    "bio": "Designer and front-end tinkerer exploring maps, civic data, and playful interfaces."
+  },
+  {
+    "name": "Nora Finch",
+    "link": "https://norafinch.net",
+    "bio": "Independent writer covering internet culture, archives, and the craft of digital memory. Her essays trace personal sites, link blogs, and newsletters that preserve stories algorithms flatten."
+  },
+  {
+    "name": "Jun Park",
+    "link": "https://junpark.studio",
+    "bio": "Motion designer making kinetic identities, short films, and event visuals."
+  },
+  {
+    "name": "Priya Shah",
+    "link": "https://priyashah.io",
+    "bio": "Full-stack developer focused on accessible education products and thoughtful dashboards. She ships LMS integrations, WCAG-minded components, and admin tools teachers want on Monday morning."
+  },
+  {
+    "name": "Theo Martin",
+    "link": "https://theomartin.art",
+    "bio": "Illustrator drawing bright editorial pieces, album covers, and character systems."
+  },
+  {
+    "name": "Carmen Liu",
+    "link": "https://carmenliu.co",
+    "bio": "Researcher helping teams turn fuzzy product questions into crisp, useful decisions."
+  },
+  {
+    "name": "Evan Reed",
+    "link": "https://evanreed.dev",
+    "bio": "Infrastructure engineer writing about observability, reliability, and kinder on-call habits. He shares runbooks, incident retrospectives, and SLO templates for teams without a platform group."
+  },
+  {
+    "name": "Sofia Green",
+    "link": "https://sofiagreen.design",
+    "bio": "Brand designer creating visual systems for restaurants, arts orgs, and early-stage startups."
+  },
+  {
+    "name": "Malik Stone",
+    "link": "https://malikstone.com",
+    "bio": "Data journalist building explainers, election tools, and charts that invite close reading. He pairs rigorous sourcing with responsive visuals so readers explore trends without losing the thread."
+  },
+  {
+    "name": "Lena Rossi",
+    "link": "https://lenarossi.dev",
+    "bio": "Creative coder experimenting with generative typography, WebGL, and audio-reactive sketches."
+  },
+  {
+    "name": "Owen Blake",
+    "link": "https://owenblake.net",
+    "bio": "Indie founder documenting the messy middle of building useful software for freelancers."
+  },
+  {
+    "name": "Maya Chen",
+    "link": "https://mayachen.studio",
+    "bio": "Ceramic artist and shop owner sharing process notes, kiln logs, and seasonal collections. Her studio journal covers glaze tests, wholesale packing, and logistics behind a small-batch tableware line."
+  },
+  {
+    "name": "Arlo Bennett",
+    "link": "https://arlobennett.com",
+    "bio": "Sound designer composing soft interface sounds, podcast themes, and installation audio."
+  },
+  {
+    "name": "Dina Khalil",
+    "link": "https://dinakhalil.dev",
+    "bio": "Open-source maintainer working on privacy-first collaboration tools and friendly docs. She mentors contributors, writes migration guides, and advocates for defaults that respect attention and data."
+  },
+  {
+    "name": "Benji Walker",
+    "link": "https://benjiwalker.co",
+    "bio": "Photographer collecting city details, quiet portraits, and behind-the-scenes field notes."
+  },
+  {
+    "name": "Iris Novak",
+    "link": "https://irisnovak.net",
+    "bio": "Editor helping technical teams make their docs sharper, shorter, and easier to trust."
+  },
+  {
+    "name": "Sam Rivera",
+    "link": "https://samrivera.dev",
+    "bio": "Game developer prototyping small browser games, level editors, and systems with strong feel. He posts devlogs about juice, input latency, and tradeoffs between scope and a polished ten-minute game."
+  },
+  {
+    "name": "Hana Weiss",
+    "link": "https://hanaweiss.com",
+    "bio": "UX strategist studying service design, health care workflows, and humane automation."
+  },
+  {
+    "name": "Cole Mercer",
+    "link": "https://colemercer.io",
+    "bio": "Backend engineer interested in language tools, search infrastructure, and durable APIs. He experiments with indexing pipelines, schema versioning, and reliability work that keeps creative tools fast."
+  },
+  {
+    "name": "Zara Patel",
+    "link": "https://zarapatel.art",
+    "bio": "Visual artist blending printmaking, code, and community workshops. She documents risograph layers, shader sketches, and facilitation notes from gatherings where beginners leave with finished work."
+  },
+  {
+    "name": "Felix Ward",
+    "link": "https://felixward.dev",
+    "bio": "Developer advocate writing practical guides for teams adopting modern web platforms."
+  },
+  {
+    "name": "Noemi Silva",
+    "link": "https://noemisilva.co",
+    "bio": "Operations consultant building simple systems for studios, nonprofits, and solo businesses. She replaces spreadsheet chaos with lightweight rituals for invoicing, hiring, and handoffs teams reinvent."
+  },
+  {
+    "name": "Rafi Cohen",
+    "link": "https://raficohen.com",
+    "bio": "Architect and urbanist publishing sketches, essays, and experiments in public space."
+  },
+  {
+    "name": "Tessa Morgan",
+    "link": "https://tessamorgan.design",
+    "bio": "Product designer focused on collaborative tools, dense interfaces, and resilient design systems. She prototypes multiplayer flows, documents tokens, and critiques software that respects expert users."
+  },
+  {
+    "name": "Kai Nakamura",
+    "link": "https://kainakamura.dev",
+    "bio": "Robotics hobbyist sharing build logs, CAD files, and notes from weekend experiments."
+  },
+  {
+    "name": "Amara Lewis",
+    "link": "https://amaralewis.net",
+    "bio": "Essayist writing about independent work, online communities, and creative sustainability."
+  },
+  {
+    "name": "Victor Hale",
+    "link": "https://victorhale.co",
+    "bio": "Security engineer teaching practical threat modeling for small teams and founders. His guides cover sensible auth, dependency hygiene, and minimum controls that reduce risk without freezing shipping."
+  },
+  {
+    "name": "Elena Brooks",
+    "link": "https://elenabrooks.studio",
+    "bio": "Art director shaping campaigns, editorial layouts, and identity systems with a human touch."
+  },
+  {
+    "name": "Quinn Ellis",
+    "link": "https://quinnellis.dev",
+    "bio": "Tools engineer improving build pipelines, design tokens, and developer experience. He automates release chores, aligns design and code repos, and writes postmortems when a cache slows everyone down."
+  },
+  {
+    "name": "Leah Kim",
+    "link": "https://leahkim.com",
+    "bio": "Food writer cataloging neighborhood bakeries, recipe tests, and interviews with makers."
+  },
+  {
+    "name": "Mateo Cruz",
+    "link": "https://mateocruz.io",
+    "bio": "AI engineer exploring retrieval systems, evaluation workflows, and useful creative assistants. He benchmarks embeddings, documents prompt regressions, and builds demos that help teams ship features."
+  },
+  {
+    "name": "Greta Moss",
+    "link": "https://gretamoss.net",
+    "bio": "Community organizer maintaining guides, event calendars, and resources for local groups. She coordinates volunteers, templates mutual-aid requests, and publishes playbooks for welcoming gatherings."
+  }
+]
