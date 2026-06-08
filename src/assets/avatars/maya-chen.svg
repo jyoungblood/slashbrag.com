@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240">
+  <rect width="240" height="240" fill="#f4dfcc"/>
+  <path d="M44 72c0-28 152-28 152 0v82c0 40-34 64-76 64s-76-24-76-64z" fill="#b57a4c" opacity=".28"/>
+  <ellipse cx="120" cy="74" rx="76" ry="24" fill="#ffffff" opacity=".48"/>
+  <circle cx="178" cy="176" r="36" fill="#111111" opacity=".09"/>
+  <text x="120" y="142" font-family="Arial, Helvetica, sans-serif" font-size="70" font-weight="700" text-anchor="middle" fill="#111111">MC</text>
+</svg>
