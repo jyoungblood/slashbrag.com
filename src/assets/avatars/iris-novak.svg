@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240">
-  <rect width="240" height="240" fill="#f7d9df"/>
-  <path d="M120 28c48 26 76 58 84 96-24 44-52 74-84 90-32-16-60-46-84-90 8-38 36-70 84-96z" fill="#d35c73" opacity=".26"/>
-  <circle cx="62" cy="174" r="40" fill="#ffffff" opacity=".48"/>
-  <text x="120" y="138" font-family="Arial, Helvetica, sans-serif" font-size="70" font-weight="700" text-anchor="middle" fill="#111111">IN</text>
-</svg>

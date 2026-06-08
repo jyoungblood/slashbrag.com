@@ -10,17 +10,11 @@ const directorySchema = z.array(
       name: z.string().min(1),
       link: z.url(),
       bio: z.string().min(1).max(200),
-      avatar: z
-        .string()
-        .regex(/^[a-z0-9][a-z0-9._-]*\.(avif|gif|jpe?g|png|svg|webp)$/i)
-        .optional(),
     })
     .strict(),
 );
 
 const lastName = (name: string) => name.slice(name.lastIndexOf(" ") + 1);
-const avatarPath = (avatar: string) =>
-  `/avatars/${avatar.replace(/\.[^.]+$/, ".webp")}`;
 
 const people = directorySchema
   .parse(directory)
@@ -87,30 +81,9 @@ const randomLinks = people.map(({ link }) => link);
                   <a
                     href={person.link}
                     target="_blank"
-                    class="group"
+                    class="text-xl font-semibold leading-tight underline underline-offset-4 text-neutral-900 hover:text-slime-700"
                   >
-                    <div
-                      class:list={[
-                        "mb-4 aspect-square w-full overflow-hidden border border-black/10",
-                        person.avatar ? "bg-neutral-200" : "bg-neutral-300",
-                      ]}
-                      aria-hidden={person.avatar ? undefined : true}
-                    >
-                      {
-                        person.avatar ? (
-                          <img
-                            src={avatarPath(person.avatar)}
-                            alt=""
-                            loading="lazy"
-                            decoding="async"
-                            class="h-auto w-full"
-                          />
-                        ) : null
-                      }
-                    </div>
-                    <span class="text-xl font-semibold leading-tight underline underline-offset-4 text-neutral-900 group-hover:text-slime-700">
-                      {person.name}
-                    </span>
+                    {person.name}
                   </a>
                   <div class="mt-2 text-sm leading-6 text-neutral-900">{person.bio}</div>
                 </div>

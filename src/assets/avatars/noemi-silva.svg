@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240">
-  <rect width="240" height="240" fill="#e5e1ff"/>
-  <path d="M36 36h168v168H36z" fill="#6a5ce0" opacity=".16"/>
-  <path d="M68 68h104v104H68z" fill="#ffffff" opacity=".44"/>
-  <circle cx="182" cy="62" r="34" fill="#111111" opacity=".1"/>
-  <text x="120" y="138" font-family="Arial, Helvetica, sans-serif" font-size="70" font-weight="700" text-anchor="middle" fill="#111111">NS</text>
-</svg>

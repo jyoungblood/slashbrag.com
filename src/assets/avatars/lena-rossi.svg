@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240">
-  <rect width="240" height="240" fill="#d7f0ff"/>
-  <path d="M28 188 188 28l24 24L52 212z" fill="#1f93d1" opacity=".28"/>
-  <circle cx="68" cy="68" r="36" fill="#ffffff" opacity=".52"/>
-  <circle cx="172" cy="172" r="42" fill="#111111" opacity=".1"/>
-  <text x="120" y="138" font-family="Arial, Helvetica, sans-serif" font-size="70" font-weight="700" text-anchor="middle" fill="#111111">LR</text>
-</svg>

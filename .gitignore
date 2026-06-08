@@ -1,6 +1,5 @@
 # build output
 dist/
-public/avatars/
 # generated types
 .astro/
 

@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240">
-  <rect width="240" height="240" fill="#f5d7ff"/>
-  <circle cx="70" cy="60" r="48" fill="#ffffff" opacity=".45"/>
-  <rect x="132" y="32" width="72" height="152" rx="36" fill="#111111" opacity=".1"/>
-  <path d="M0 164c62-24 118-18 240 28v48H0z" fill="#c27ddb" opacity=".64"/>
-  <text x="120" y="138" font-family="Arial, Helvetica, sans-serif" font-size="70" font-weight="700" text-anchor="middle" fill="#111111">AL</text>
-</svg>

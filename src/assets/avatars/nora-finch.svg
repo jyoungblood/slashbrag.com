@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240">
-  <rect width="240" height="240" fill="#eaf0d1"/>
-  <path d="M54 34h132v172H54z" fill="#96a34b" opacity=".24"/>
-  <path d="M76 58h88v16H76zM76 90h88v16H76zM76 122h60v16H76z" fill="#111111" opacity=".12"/>
-  <circle cx="176" cy="174" r="42" fill="#ffffff" opacity=".48"/>
-  <text x="120" y="145" font-family="Arial, Helvetica, sans-serif" font-size="70" font-weight="700" text-anchor="middle" fill="#111111">NF</text>
-</svg>
