@@ -42,3 +42,5 @@ Update it when you ship something, solve something, learn something, or help som
 ## How do I get listed in the directory?
 
 Simply open a pull request in this repo that adds your name, link, and bio to [`data.json`](https://github.com/jyoungblood/slashbrag.com/blob/main/data.json).
+
+You can optionally include an avatar by adding square-ish source image to `src/assets/avatars/` and including the filename as `avatar` in your `data.json` entry. Supported formats are `.avif`, `.gif`, `.jpg`, `.jpeg`, `.png`, `.svg`, and `.webp`.

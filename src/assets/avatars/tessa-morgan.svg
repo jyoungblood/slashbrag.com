@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240">
+  <rect width="240" height="240" fill="#dce7f0"/>
+  <rect x="30" y="54" width="180" height="132" rx="18" fill="#5f7890" opacity=".2"/>
+  <circle cx="72" cy="88" r="28" fill="#ffffff" opacity=".5"/>
+  <path d="M92 146h92v18H92zM92 112h64v18H92z" fill="#111111" opacity=".11"/>
+  <text x="120" y="138" font-family="Arial, Helvetica, sans-serif" font-size="70" font-weight="700" text-anchor="middle" fill="#111111">TM</text>
+</svg>
